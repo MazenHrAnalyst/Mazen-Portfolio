@@ -1,0 +1,679 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Hello👋 I'm Mazen Sabry</h1>
+								<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+								<h2 style="color: rgb(255, 0, 0);"><span id="animated-text"></span></h2>		
+								<script>
+									var typed = new Typed("#animated-text", {
+										strings: ["📊 Data Analyst", "👥 Technical HR Analyst"],
+										typeSpeed: 100,    // Typing speed in milliseconds
+										backSpeed: 50,     // Deleting speed
+										backDelay: 1000,   // Delay before typing new word
+										loop: true         // Keep looping
+									});
+								</script>											
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#about" style="font-weight: bold;">About</a></li>
+								<li><a href="#skills" style="font-weight: bold;">Skills</a></li>
+								<li><a href="#certifications" style="font-weight: bold;">Certifications</a></li>			
+								<li><a href="#projects" style="font-weight: bold;">Projects</a></li>
+								<li><a href="#contact" style="font-weight: bold;">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="images/pic01.jpeg" alt="" /></span>
+								<p>Motivated and detail-oriented professional with proficiency in data analysis tools such as Excel, Power BI, SQL, and Python, gained through hands-on experience in academic and real-world projects. Strong analytical skills and a passion for transforming data into meaningful insights. Excellent problem-solving abilities with a keen interest in leveraging data to support decision-making. Eager to contribute to a dynamic team, develop practical skills in a professional setting, and continuously learn to solve complex problems and improve processes.</p>
+							</article>
+
+
+
+
+
+
+						<!-- Skills -->
+						<article id="skills">
+							<h2>My Technical Skills</h2>
+
+							<div class="skill">
+								<p>Power BI</p>
+								<div class="progress-bar">
+									<div class="progress" style="width: 85%;">85%</div>
+								</div>
+							</div>
+
+							<div class="skill">
+								<p>Excel</p>
+								<div class="progress-bar">
+									<div class="progress" style="width: 80%;">80%</div>
+								</div>
+							</div>
+
+							<div class="skill">
+								<p>SQL</p>
+								<div class="progress-bar">
+									<div class="progress" style="width: 75%;">75%</div>
+								</div>
+							</div>
+
+							<div class="skill">
+								<p>Python</p>
+								<div class="progress-bar">
+									<div class="progress" style="width: 70%;">70%</div>
+								</div>
+							</div>				
+						
+						
+							<h2>Professional Skills</h2>
+							<div class="skills-container">
+								
+								<div class="skill-circle">
+									<div class="progress-circle" style="--percentage: 85;">
+										<span>85%</span>
+									</div>
+									<p>Analytical & Problem-Solving</p>
+								</div>
+						
+								<div class="skill-circle">
+									<div class="progress-circle" style="--percentage: 90;">
+										<span>90%</span>
+									</div>
+									<p>Presentations & Reporting</p>
+								</div>
+						
+								<div class="skill-circle">
+									<div class="progress-circle" style="--percentage: 95;">
+										<span>95%</span>
+									</div>
+									<p> Research and Planning</p>
+								</div>
+						
+								<div class="skill-circle">
+									<div class="progress-circle" style="--percentage: 80;">
+										<span>80%</span>
+									</div>
+									<p>Time & Project Management</p>
+								</div>
+
+								<div class="skill-circle">
+									<div class="progress-circle" style="--percentage: 80;">
+										<span>80%</span>
+									</div>
+									<p>Communication</p>
+								</div>
+						
+								<div class="skill-circle">
+									<div class="progress-circle" style="--percentage: 85;">
+										<span>85%</span>
+									</div>
+									<p>Decision-Making</p>
+								</div>
+
+								<div class="skill-circle">
+									<div class="progress-circle" style="--percentage: 80;">
+										<span>80%</span>
+									</div>
+									<p>Creativity</p>
+								</div>
+
+								<div class="skill-circle">
+									<div class="progress-circle" style="--percentage: 85;">
+										<span>85%</span>
+									</div>
+									<p>Team Work</p>
+								</div>
+
+							</div>
+						</article>
+						
+						<script>
+						document.addEventListener("DOMContentLoaded", function() {
+							let progressBars = document.querySelectorAll(".progress");
+						
+							function animateProgressBars() {
+								progressBars.forEach(bar => {
+									let width = bar.style.width;
+									bar.style.width = "0%"; 
+									setTimeout(() => {
+										bar.style.width = width;
+									}, 500);
+								});
+							}
+						
+							animateProgressBars();  // Run animation on page load
+						});
+						</script>
+					
+				
+							
+
+						<!-- Certifications -->
+							<article id="certifications">
+								<h2 class="major">Certifications</h2>
+								<span class="image main"><img src="images/Future Academy Appreciation Certificate.jpg" alt="" /><center><b>Future Academy 4th Place Appreciation Certificate</b></center></span>
+								<span class="image main"><img src="images/Data Analysis Certificate.jpeg" alt="" /><center><b>Data Analysis Certificate</b></center></span>
+								<span class="image main"><img src="images/Microsoft Technology Associate - Database Fundamentals Certificate.jpg" alt="" /><center><b>Microsoft Technology Associate - Database Fundamentals Certificate</b></center></span>
+								<span class="image main"><img src="images/Querying Microsoft SQL Server & Programming in C sharp Certificate.jpg" alt="" /><center><b>Querying Microsoft SQL Server & Programming in C# Certificate</b></center></span>
+								<span class="image main"><img src="images/Programming in HTML5 with JavaScript and CSS3 Certificate.jpg" alt="" /><center><b>Programming in HTML5 with JavaScript and CSS3 Certificate</b></center></span>
+								<span class="image main"><img src="images/English Berlitz Certificate.jpg" alt="" /><center><b>English Berlitz Certificate</b></center></span>
+								<span class="image main"><img src="images/Football Performance Analysis Certificate.png" alt="" /><center><b>Football Performance Analysis Certificate</b></center></span>
+								<span class="image main"><img src="images/Game Analysis & Data Analysis Certificate.jpg" alt="" /><center><b>Game Analysis & Data Analysis Certificate</b></center></span>
+								<span class="image main"><img src="images/RIR Appreciation Certificate.png" alt="" /><center><b>RIR Appreciation Certificate</b></center></span>
+								<span class="image main"><img src="images/MCSD App Builder Solutions Developer Certificate.jpg" alt="" /><center><b>MCSD App Builder Solutions Developer Certificate</b></center></span>
+								<span class="image main"><img src="images/Developing ASP.NET Core MVC Web Applications Certificate.jpg" alt="" /><center><b>Developing ASP.NET Core MVC Web Applications Certificate</b></center></span>
+								<span class="image main"><img src="images/Ulemt Appreciation Certificate.png" alt="" /><center><b>Ulemt Appreciation Certificate</b></center></span>							
+							</article>
+							
+							
+						<!-- Projects -->	 																
+						<article id="projects">
+								<h1 style="text-align: center;">Projects</h1>
+
+
+								<a href="https://github.com/MazenHrAnalyst/Analyzing-electricity-consumption-in-Saudi-Arabia-Data-Analysis-Project-with-Microsoft-Excel" target="_blank">
+									<img src="images/تحليل استهلاك الكهرباء في المملكة العربية السعودية.png" alt="" width="100%" height="100%" class="clickable-image">
+								</a>
+								<a href="https://github.com/MazenHrAnalyst/Analyzing-electricity-consumption-in-Saudi-Arabia-Data-Analysis-Project-with-Microsoft-Excel" target="_blank">
+									<h3 style="text-align: center;">Analyzing electricity consumption in Saudi Arabia Data Analysis Project with 📊 Microsoft Excel</h3>						
+								</a>	
+								<style>
+									.clickable-image {
+										cursor: pointer; /* Changes cursor to pointer */
+										transition: 0.3s;
+									}
+									.clickable-image:hover {
+										opacity: 0.8; /* Adds visual feedback on hover */
+										transform: scale(1.03); /* Slight zoom effect */
+									}
+								</style>										
+								<p>
+									This "Analyzing electricity consumption in Saudi Arabia" Data Analysis project analyzes total usage, revenue, and pricing across cities, regions, and consumer categories. Through data cleaning, pivot tables, charts, and an interactive dashboard, the analysis provides insights for better decision-making on electricity consumption trends.
+								</p>
+
+
+
+								<a href="https://github.com/MazenHrAnalyst/HR-Dashboard" target="_blank">
+									<img src="images/HR Data Analysis Project With Microsoft Power BI.png" alt="" width="100%" height="100%" class="clickable-image">
+								</a>
+								<a href="https://github.com/MazenHrAnalyst/HR-Dashboard" target="_blank">
+									<h3 style="text-align: center;">HR Data Analysis Project With 📉 Microsoft Power BI</h3>
+								</a>	
+									<style>
+										.clickable-image {
+											cursor: pointer; /* Changes cursor to pointer */
+											transition: 0.3s;
+										}
+										.clickable-image:hover {
+											opacity: 0.8; /* Adds visual feedback on hover */
+											transform: scale(1.03); /* Slight zoom effect */
+										}
+									</style>											
+								<p>
+									This "HR" Data Analysis project provides comprehensive insights into workforce planning, diversity monitoring, training effectiveness, and cost management, enabling HR department to make strategic, data-driven decisions. By leveraging key HR metrics, the dashboard enhances employee engagement, optimizes resource allocation, and fosters organizational growth.
+								</p>
+
+
+
+								<a href="https://github.com/MazenHrAnalyst/Store-Dashboard" target="_blank">
+									<img src="images/Store Data Analysis Project With Microsoft Power BI.png" alt="" width="100%" height="100%" class="clickable-image">
+								</a>
+								<a href="https://github.com/MazenHrAnalyst/Store-Dashboard" target="_blank">
+									<h3 style="text-align: center;">Store Data Analysis Project With 📉 Microsoft Power BI</h3>
+								</a>
+									<style>
+										.clickable-image {
+											cursor: pointer; /* Changes cursor to pointer */
+											transition: 0.3s;
+										}
+										.clickable-image:hover {
+											opacity: 0.8; /* Adds visual feedback on hover */
+											transform: scale(1.03); /* Slight zoom effect */
+										}
+									</style>												
+								<p>
+									This "Store" Data Analysis project provides a comprehensive analysis of store sales and profit, visualizing key metrics like total sales ($2.30M), profit ($286.68K), customer segmentation, product performance, and shipping efficiency. It enables data-driven decision-making by offering insights into regional trends, manager performance, top-selling products, quarterly growth, and weekday vs. weekend sales patterns to optimize profitability and business strategy.
+								</p>
+
+							
+
+
+								<a href="https://github.com/MazenHrAnalyst/E-Commerce-Dashboard" target="_blank">
+									<img src="images/E-Commerce Data Analysis Project With Microsoft Power BI.png" alt="" width="100%" height="100%" class="clickable-image">
+								</a>
+								<a href="https://github.com/MazenHrAnalyst/E-Commerce-Dashboard" target="_blank">
+									<h3 style="text-align: center;">E-Commerce Data Analysis Project With 📉 Microsoft Power BI</h3>
+								</a>		
+								<style>
+									.clickable-image {
+										cursor: pointer; /* Changes cursor to pointer */
+										transition: 0.3s;
+									}
+									.clickable-image:hover {
+										opacity: 0.8; /* Adds visual feedback on hover */
+										transform: scale(1.03); /* Slight zoom effect */
+									}
+								</style>									
+								<p>
+									This "E-commerce" Data Analysis project shows strong user acquisition from Display, Social, and Other channels, with increasing revenue trends, but lower retention and conversion rates highlight engagement and checkout inefficiencies. While Direct and Instagram traffic drive significant revenue, high bounce rates and underperforming retargeting campaigns indicate the need for improved user experience, targeted marketing optimizations, and conversion-focused strategies to maximize revenue potential.
+								</p>
+												
+							
+							
+							<a href="https://github.com/MazenHrAnalyst/Unlocking-Growth-by-Identifying-the-Best-Product-for-Maximum-Impact-Project-With-Microsoft-Power-BI" target="_blank">
+								<img src="images/Unlocking Growth by Identifying the Best Product for Maximum Impact Data Analysis Project.png" alt="" width="100%" height="100%" class="clickable-image">
+							</a>
+							<a href="https://github.com/MazenHrAnalyst/Unlocking-Growth-by-Identifying-the-Best-Product-for-Maximum-Impact-Project-With-Microsoft-Power-BI" target="_blank">
+								<h3 style="text-align: center;">Unlocking Growth by Identifying the Best Product for Maximum Impact Data Analysis Project With 📉 Microsoft Power BI</h3>						
+							</a>	
+							<style>
+								.clickable-image {
+									cursor: pointer; /* Changes cursor to pointer */
+									transition: 0.3s;
+								}
+								.clickable-image:hover {
+									opacity: 0.8; /* Adds visual feedback on hover */
+									transform: scale(1.03); /* Slight zoom effect */
+								}
+							</style>										
+							<p>
+								This "Unlocking Growth: Identifying the Best Product for Maximum Impact" Data Analysis project, analyzes sales data across Point-of-Sale, Payment Pages, and Payment Requests to identify the most promising product for resource allocation. By cleaning, transforming, and visualizing data using DAX-powered analysis, it provides actionable insights and a strategic recommendation on which product to prioritize for maximum growth.
+							</p>
+
+
+
+							<a href="https://github.com/MazenHrAnalyst/Optimizing-Profitability-Data-Analysis-Project-with-MS-SQL-Server" target="_blank">
+								<img src="images/Optimizing Profitability Data Analysis Project with MS SQL Server.jpg" alt="" width="100%" height="100%" class="clickable-image">
+							</a>
+							<a href="https://github.com/MazenHrAnalyst/Optimizing-Profitability-Data-Analysis-Project-with-MS-SQL-Server" target="_blank">
+								<h3 style="text-align: center;">Optimizing Profitability Data Analysis Project With 🗄️ MS SQL Server</h3>						
+							</a>	
+							<style>
+								.clickable-image {
+									cursor: pointer; /* Changes cursor to pointer */
+									transition: 0.3s;
+								}
+								.clickable-image:hover {
+									opacity: 0.8; /* Adds visual feedback on hover */
+									transform: scale(1.03); /* Slight zoom effect */
+								}
+							</style>										
+							<p>
+								This "Optimizing Profitability" Data Analysis project analyze sales data by identifying the most profitable customers. By calculating gross margins, evaluating key customers, and investigating profitability drivers to enhance sales strategies and maximize revenue for "Fancy Fruits (fictitious)" company.
+							</p>
+
+
+							<a href="https://github.com/MazenHrAnalyst/Marketing-Campaigns-Analysis-Project-with-Python" target="_blank">
+								<img src="images/Marketing Campaigns Analysis Project with Python.jpg" alt="" width="100%" height="100%" class="clickable-image">
+							</a>
+							<a href="https://github.com/MazenHrAnalyst/Marketing-Campaigns-Analysis-Project-with-Python" target="_blank">
+								<h3 style="text-align: center;">Marketing Campaigns Data Analysis Project With 💻 Python</h3>
+							</a>	
+							<style>
+								.clickable-image {
+									cursor: pointer; /* Changes cursor to pointer */
+									transition: 0.3s;
+								}
+								.clickable-image:hover {
+									opacity: 0.8; /* Adds visual feedback on hover */
+									transform: scale(1.03); /* Slight zoom effect */
+								}
+							</style>										
+							<p>
+								This "Marketing Campaigns" Data Analysis project  assesses the effectiveness of various acquisition campaigns in increasing Relative Market Share (RMS). By analyzing customer segmentation, campaign performance, and purchasing behavior, the project answers key business questions related to optimal targeting, rejection reasons, revenue-maximizing strategies, and the best campaign offers and sales channels to enhance customer acquisition and profitability.
+							</p>
+						
+
+
+							<a href="https://github.com/MazenHrAnalyst/Python-Assignment" target="_blank">
+								<img src="images/Python Assignment.png" alt="" width="100%" height="100%" class="clickable-image">
+							</a>
+							<a href="https://github.com/MazenHrAnalyst/Python-Assignment" target="_blank">
+								<h3 style="text-align: center;">Python 💻 Assignment</h3>
+							</a>
+							<style>
+								.clickable-image {
+									cursor: pointer; /* Changes cursor to pointer */
+									transition: 0.3s;
+								}
+								.clickable-image:hover {
+									opacity: 0.8; /* Adds visual feedback on hover */
+									transform: scale(1.03); /* Slight zoom effect */
+								}
+							</style>
+							
+					</article>
+
+
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field half">
+											<label for="email">Address</label>
+											<input type="text" name="address" id="address" />
+										</div>
+										<div class="field half">
+											<label for="email">Phone Number</label>
+											<input type="text" name="phone number" id="phone number" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="2"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="mailto:example@example.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="30" height="20"></a></li>
+									<li><a href="https://www.linkedin.com/in/mazen-sabry-data-analyst/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/MazenHrAnalyst" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="mailto:example@example.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="30" height="20"></a></li>
+										<li><a href="https://www.linkedin.com/in/mazen-sabry-data-analyst/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/MazenHrAnalyst" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!-- <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p> -->
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
